@@ -17,7 +17,7 @@ Controls
 
 Dependancies
 ----------------
-No external libraries used. One and only pygame.
+pygame and pyInstaller are the only 2 dependencies
 
 Screenshot
 -------
