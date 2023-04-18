@@ -57,8 +57,9 @@ class Missile(py.sprite.Sprite, object.Object):
         self.slowvalue = slowvalue
 
         time_since_dir_change = time.time() - self.last_dir_change_time
-# missle change tracjectory every 3 seconds
+# missle change tracjectory every few seconds 
         if time_since_dir_change >= 3.0:
+            
             rot_dir = self.sub_vec(playerpos, self.pos)
             v_turn = self.unit(self.sub_vec(rot_dir, self.v))
             v_turn = self.multiply(self.slowvalue, v_turn)
