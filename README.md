@@ -5,15 +5,14 @@ fighterjet game made in pygame. This is game is not for commercial usages, use i
 
 note
 ----
-this game is made for windows pc use
+this game is made for windows pc use (offline run main.exe shortcut or skywars\dist\main.exe )
 
 Execution file path
 ---
 Shortcut of main.exe is present on the initial opening of git repository- please download and run
-
-or 
+(or) 
 file name main.exe 
-path : skywars\dist\main
+path : skywars\dist\main.exe  
 
 Controls
 ----
